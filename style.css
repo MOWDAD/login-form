@@ -22,8 +22,32 @@ body{
     border-radius: 10px;
     border: 10px solid #89dd13;
     box-shadow: 5px 5px 5px rgba(234, 24, 24, 0.4);
-    
+    animation: rotateBorder 3s infinite linear;
+    transition: border 1s ease;
 }
+
+@keyframes rotateBorder {
+  0% {
+    
+      border-color: #ff5733;
+    }
+    25% {
+      border-color: #33ff57;
+    }
+    50% {
+      border-color: #5733ff;
+    }
+    75% {
+      border-color: #ff3366;
+    }
+    100% {
+      border-color: #33ffcc;
+    }
+
+}
+
+  
+
 .form-container{
     width: 500px;
     background-color: transparent;
@@ -64,7 +88,22 @@ input{
     color: whitesmoke;
     font-size: 30px;
     border-radius: 10px;
-}
+    cursor: pointer;
+    animation: rotateCd 10s infinite linear;
+    
+  }
+
+  @keyframes rotateCd {
+    0% {
+      background: linear-gradient(90deg, #ff5733, #33ff57, #5733ff, #ff3366, #33ffcc);
+      background-size: 500% 100%;
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 500% 0;
+    }
+  }
+
 /*@media screens*/
 @media (max-width: 767px) {
     /* Styles for small screens, like Android phones */
