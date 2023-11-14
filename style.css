@@ -133,7 +133,7 @@ input{
     }
     h1{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 60px;
+        font-size: 40px;
     }
     .form-container{
         width: 250px;
@@ -167,7 +167,7 @@ input{
     }
     .btn{
         text-align: center;
-        padding: 50px;
+        padding: 20px;
     }
     .btn button{
         background-color: blue;
