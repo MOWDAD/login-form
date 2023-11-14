@@ -1,0 +1,157 @@
+*{
+    top: 0;
+    padding: o;
+}
+body{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.container{
+    background-color: transparent;
+    width: 600px;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 10px solid #89dd13;
+    box-shadow: 5px 5px 5px rgba(234, 24, 24, 0.4);
+    
+}
+.form-container{
+    width: 500px;
+    background-color: transparent;
+    height: 500px;
+    border: 20px solid  transparent;
+}
+form{
+    display: block;
+    padding: 50px;
+    text-align: left;
+}
+label{
+    font-size: 25px;
+}
+.username{
+    padding: 25px;
+}
+.password{
+    padding: 30px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    text-align: center;
+    padding: 50px;
+}
+.btn button{
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    color: whitesmoke;
+    font-size: 30px;
+    border-radius: 10px;
+}
+/*@media screens*/
+@media (max-width: 767px) {
+    /* Styles for small screens, like Android phones */
+    body{
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        padding: 10px;
+    
+    }
+    .container{
+        background-color: transparent;
+        width: 300px;
+        height: 700px;
+        text-align: center;
+        align-items: center;
+        padding: 15px;
+        margin-left:0px;
+        border-radius: 20px;
+        border: 10px solid #89dd13;
+        box-shadow: 10px 10px 10px rgba(234, 24, 24, 0.4);
+        top: 0;
+    }
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+    }
+    .form-container{
+        width: 250px;
+        background-color: transparent;
+        height: 500px;
+        border: 20px solid  transparent;
+        border-radius: 20px;
+    }
+    form{
+        display: block;
+        padding: 0px;
+        text-align: left;
+    }
+    label{
+        font-size: 25px;
+    }
+    .username{
+        padding: 25px;
+    }
+    .password{
+        padding: 30px;
+    }
+    input{
+        width: 100%;
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding-left: 30px;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn{
+        text-align: center;
+        padding: 50px;
+    }
+    .btn button{
+        background-color: blue;
+        width: 150px;
+        height: 50px;
+        color: whitesmoke;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+
+
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablets */
+    .center-container {
+      padding: 20px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    /* Styles for laptops and larger screens */
+    .center-container {
+      padding: 25px;
+    }
+  }
